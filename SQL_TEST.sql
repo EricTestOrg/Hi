@@ -13,7 +13,7 @@ SELECT algn.LOWST_LVL_ALGNMNT_NM,
   
   and prod.THCL_PROD_NM = 'MHRT'
   
-  
+  and Test	
   and sales.SLV_CD = '-1'
   group by 1,3
  LIMIT 100
